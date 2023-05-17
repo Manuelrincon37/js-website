@@ -1,14 +1,37 @@
 .header{
     background-color: #001551;
-    margin-top: 20px;
+    text-align: center;
+    background-image: url(banner2.png);
+    font-size: 28px;
+}       
     
+}
+
+title{
+    ;
+
 }
 
 /*The colors will chage, this is only a test*/
 .subtitle{
-    background-color:#424659;
-    color:#dee1f9
+    background-color:#42465974 ;
+    color:#dee1f9;
+    font-size: 30px;
+    font-weight: lighter;
+    
 }
+
+.navBar{
+    background-color:#424659;
+    color:#dee1f9;
+    font-size: 20px;
+    margin-left: 20px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    
+}
+
+th{font-weight: 500;}
 
 body{
     background-color:#1b1b1f;
@@ -22,14 +45,34 @@ background-color: white;
 .t-interact{
     background-color: #00458d;
     color:#d6e3ff;
+    border: solid 2px;
+}
+.tabla{
+    padding-left: 500px ;
+    padding-right: 50px;
+}
+td,th{
+    border: solid 1px
 }
 
 .menu-interactivo{
     background-color: #161b2c;
-    color: #dee1f9;
-    margin-right: 1100px;
+    color: #dee1f9;   
+    margin-left: 20px ;
+    padding-left: 20px;
+} 
+
+#parrafo{
+    margin: 0px;
+    padding-left: 300px;
     
-}  
+}
+
+.up{
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 90px;
+}   
 .menu-elementos{
     background-color: aqua;
 }

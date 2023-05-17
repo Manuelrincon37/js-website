@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <title>Jamon Serrano League</title> <!--TITLE OF WEBSITE-->
+    <title id="titulo">Jamon Serrano League</title> <!--TITLE OF WEBSITE-->
     <link rel="stylesheet" href="/styles.css">
     <style>
         body{
@@ -12,22 +12,24 @@
 </head>
 <body>
     <div class="header">
-        <img class="logo" src="/img/escudo.png" alt="logo-inicio" width="50"> <!--LOGO AND NAME OF WEBSITE-->
+        <img class="logo" src="/img/escudo.png" alt="logo-inicio" width="80"> <!--LOGO AND NAME OF WEBSITE-->
         <h1>Jamon Serrano Leage</h1>
     
         <h2 class="subtitle">Liga de FIFA23 ONLINE</h2><!--SHORT DESCRIPTION-->
     </div>
         
-<div>
-    <hr>
-        <table>
-            <th>|Barra de busqueda|</th>
-            <th>|contacto|</th>
-            <th>|WhatsApp Group|</th>
-        </table><!--TRY TO DO A NAV/SERACH BAR-->
-    <hr>
+<div class="navBar">
+   
+    <table><!--TRY TO DO A NAV/SERACH BAR-->
+            
+        <th>|Barra de busqueda|</th>
+        <th>|contacto|</th>
+        <th>|WhatsApp Group|</th>
+           
+    </table>
+</div>   
     <br>   
-        <div class="menu-interactivo">       <!--EACH WILL HAVE A LINK TO LEAD TO EACH SECTION-->
+    <div class="menu-interactivo">       <!--EACH WILL HAVE A LINK TO LEAD TO EACH SECTION-->
         <lo class="menu-elementos">
                 <li>HOME</li>
             <br>
@@ -41,14 +43,15 @@
             <br>
                 <li>ACERCA DE NOSOTROS</li>
         </lo>
-        </div> 
-</div>
-<div>
+        <p id="parrafo">Creada en 2020 por 5 fundadores para distraernos del dia a dia, ahora se ha convertido en una pasion</p>
+    </div> 
+
+
     
     <!--WANT TO SET A BACKGROUND IMAGE REFERENCING FIFA AND/OR FOOTBALL -->  
 
-</div class="tabla">
-    <h3>Ultimos partidos</h3> 
+<div class="tabla">
+    <h3 class="up">Ultimos partidos</h3> 
     <!--SHOW THE LAST 5 OR MORE GAME SCORES REGISTERED-->
     <!--WILL MAKE IT INTERACTIVE AND EDITABLE FROM ADMIN PAGE-->
     <table class="t-interact">
@@ -76,12 +79,12 @@
           <tr>
             <td>Juventus</td>
             <td>1-1</td>
-            <td>1</td>
+            <td>Napoli</td>
             <td>copa</td>
           </tr>
         </tbody>
-      </table>
-    
+      </table>   
+</div>
 </body>
 </html>
 
