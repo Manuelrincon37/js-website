@@ -74,15 +74,25 @@ th{font-weight: 500;}
 li{
     text-align: center;
 }
-.menu{
+ul{
     
     background-color: #161b2c;
-    color: #dee1f9;   
-    margin-left: 20px ;
+    color: #dee1f9; 
+    margin: 0px;  
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 25px;
-    list-style: none;
+    font-size: 30px;
+    list-style-type: none; 
+}
+.navbar_link{
+    color:#d6e3ff;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    padding: 15px 0px 15px 0px;
+    text-align: left;
 }
 
 #parrafo{
