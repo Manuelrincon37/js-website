@@ -2,26 +2,29 @@ body{
     background-color:#1b1b1f;
     color:#e4e1e6;
 }
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .header{
     background-color: #001551;
     text-align: center;
     background-image: url(banner2.png);
     font-size: 28px;
     color: gray;
-    min-height: 300px;
+    min-height: 300px;  
     
-}       
-
+} 
+.logo{
+    background-color: white;
+}      
 /*The colors will chage, this is only a test*/
 .subtitle{
     background-color:#42465974 ;
     color:#dee1f9;
     font-size: 30px;
-    font-weight: lighter;
-    
+    font-weight: lighter;    
 }
-
 .navBar{
     background-color:#424659;
     color:#dee1f9;
@@ -29,34 +32,49 @@ body{
     border-top: solid 1px;
     border-bottom: solid 1px;
 }
-
 #nav{
     padding: 0px 0px 0px 1210px;
 }
 
-th{font-weight: 500;}
-
-
-.logo{
-    
-    background-color: white;
+span{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-left: 10px;
 }
-
 .mid-sect{
-    
     margin-bottom: 50px;
     padding-bottom: 150px;
 }
+.descripcion{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+} 
+#parrafo{  
+    margin: 0px;
+    padding: 0px;
+    font-weight: lighter;
+    text-align: justify; 
+}
+
+i:hover{
+    color: #00458d;
+}
+i{
+    padding-left: 13px;
+}
+
+th{font-weight: 500;}
+
 .tabla{
-    
     padding: 0px 400px 0px 400px;
     text-align: center;
     border-top: solid 1px white;
-
 }
 
 .t-interact{
-    
     background-color: #00458d;
     color:#d6e3ff;
     border: solid 2px;
@@ -64,54 +82,34 @@ th{font-weight: 500;}
     padding: 0px 10px 0px 10px;
     border: solid 1px;
 }
-
-.descripcion{
-    
-    padding-left: 100px;
-    padding-right: 100px;
-} 
-
 li{
-    text-align: center;
+    align-items: center ;
+    padding: 15px 0px 15px 0px;
+    text-align: left;
+
 }
-ul{
-    
+ul{ 
     background-color: #161b2c;
     color: #dee1f9; 
     margin: 0px;  
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
     font-size: 30px;
-    list-style-type: none; 
+    list-style-type: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
 }
 .navbar_link{
     color:#d6e3ff;
     align-items: center;
-    justify-content: center;
+    justify-content: center;   
 }
-
-li{
-    padding: 15px 0px 15px 0px;
-    text-align: left;
-}
-
-#parrafo{
-    
-    margin: 0px;
-    padding: 0px;
-    font-weight: lighter;
-    text-align: center;
-    
-}
-
 .up{
-    
     font-size: 25px;
     font-weight: 400;
     margin: 50px 0px 10px 0px;
     padding: 0px 0px 0px 0px;
 }   
-.menu-elementos{ /*THIS IS WITHOUT USE SO FAR*/
-    
-    background-color: aqua;
-}
