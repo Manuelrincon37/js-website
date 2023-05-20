@@ -10,10 +10,11 @@ body{
     background-color: #001551;
     text-align: center;
     background-image: url(banner2.png);
+    background-size: cover;
     font-size: 28px;
     color: gray;
     min-height: 300px;  
-    
+  
 } 
 .logo{
     background-color: white;
@@ -22,7 +23,7 @@ body{
 .subtitle{
     background-color:#42465974 ;
     color:#dee1f9;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: lighter;    
 }
 .navBar{
@@ -35,6 +36,16 @@ body{
 #nav{
     padding: 0px 0px 0px 1210px;
 }
+ul{ 
+    background-color: #161b2c;
+    color: #dee1f9; 
+    margin: 0px;  
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 30px;
+    list-style-type: none;
+    display: flex;
+}
 
 span{
     font-size: 20px;
@@ -43,20 +54,40 @@ span{
     text-align: center;
     padding-left: 10px;
 }
+#unete{
+    color: #00458d;
+    text-decoration: underline;
+    font-weight: bold;
+}
 .mid-sect{
-    margin-bottom: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
+}
+/*#foto_container{
+    justify-content: center;
+    background-color: #222;
+}*/
+#foto_fifa{
+    border-radius: 15px;
+}
+#container{
+    display: grid ;
+    grid-template-columns: 400px 1fr;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
 }
 .descripcion{
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0px;
 } 
 #parrafo{  
     margin: 0px;
     padding: 0px;
     font-weight: lighter;
     text-align: justify; 
+    font-size: 20px;
 }
 
 i:hover{
@@ -87,16 +118,6 @@ li{
     padding: 15px 0px 15px 0px;
     text-align: left;
 
-}
-ul{ 
-    background-color: #161b2c;
-    color: #dee1f9; 
-    margin: 0px;  
-    padding-left: 300px;
-    padding-right: 300px;
-    font-size: 30px;
-    list-style-type: none;
-    display: flex;
 }
 
 a{
