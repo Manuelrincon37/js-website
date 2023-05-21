@@ -22,27 +22,26 @@
             <th>contacto |</th>
             <th>WhatsApp Group</th>
         </table>
-    </div>   
-    <br>   
+    </div>    
    <main><div class="mid-sect">
-        <nav id="topmenu">
-            <ul>
-                <li id="#elementos-menu">
+        <nav id="container-topmenu">
+            <ul id="topmenu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-solid fa-house"></i><span>Home</span></a>
                 </li>
-                <li id="#elementos-menu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-solid fa-people-group"></i><span>Equipos</span></a>
                 </li>
-                <li id="#elementos-menu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-solid fa-trophy"></i><span>Torneos</span></a>
                 </li>
-                <li id="#elementos-menu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-solid fa-medal"></i><span>Titulos</span></a>
                 </li>
-                <li id="#elementos-menu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-regular fa-image"></i><span>Galeria</span></a>
                 </li>
-                <li id="#elementos-menu">
+                <li id="elementos-menu">
                     <a href="#" class="navbar_link"><i class="fa-solid fa-circle-info"></i><span>Acerda de</span></a>
                 </li>
             </ul>
@@ -61,12 +60,24 @@
             <!--El link "unete" no existe por el momento-->
         </div>
     </div>   
-    
-    </main></div> 
+    </main></div>
+    <section id="video-destacado">
+        <h2>Video destacado</h2>
+        <div id="video-container">
+            <video controls width="250px">
+                <source src="./media/gol-immobile.mp4" type="video/mp4">
+            </video>
+            <p id="descripcion-video">Un espectgacular fragmeto de la final de <cite>Europa Leage</cite>, donde se enfrentaron <strong>Manchester-city y Borussia Dortmund</strong>, en el cual
+                podemos obesrbar el impresionante gol de <strong>CIRO IMMOBILE</strong> que ponia el <strong>2 - 1</strong> en el marcador sobre el final del juego
+                para concederle el preciado titulo al equipo aleman.
+            </p>
+        </div>
+    </section> 
     <div class="tabla">
     <h3 class="up">Ultimos partidos</h3> 
     <!--SHOW THE LAST 5 OR MORE GAME SCORES REGISTERED-->
     <!--WILL MAKE IT INTERACTIVE AND EDITABLE FROM ADMIN PAGE-->
+    <!--THIS IS ONLY A MUCKUP-->
         <table class="t-interact">
             <thead>
             <tr>
@@ -98,6 +109,28 @@
             </tbody>
         </table>   
     </div>
+    <!--Form to input contact data-->
+    <section id="formulario">
+        <h2>Contáctanos </h2>
+        <form action="#">
+            <div class="itemform">
+                <label for="nombre">Nombre</label>
+                <input required placeholder="Nombre" type="text" name="nombre" id="nombre" minlength="3" maxlength="32" size="32">   
+            </div>
+            <div class="itemform">
+                <label for="email">Correo electronico</label>
+                <input required placeholder="Correo electronico" type="email" name="email" id="email" minlength="10" maxlength="32" size="32">
+            </div>
+            <div class="itemform">
+                <label for="coment">Mensaje</label>
+                <textarea placeholder="Mensaje" id="mensaje" cols="33" rows="5"></textarea>
+            </div>
+            <div class="itemform">
+                <input type="submit" name="enviar" value="CONTACTAR" >
+            </div>
+        </form> 
+
+    </section>
 </body>
 </html>
 
