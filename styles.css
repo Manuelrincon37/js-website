@@ -1,6 +1,8 @@
 body{
     background-color:#1b1b1f;
     color:#e4e1e6;
+    font-family: 'Mulish', sans-serif;
+    font-size: 15px;
 }
 *{
     margin: 0px;
@@ -14,10 +16,15 @@ body{
     font-size: 28px;
     color: gray;
     min-height: 300px;  
-  
+}
+.header h1{
+    font-size: 80px;
+    color: white;
 } 
 .logo{
-    background-color: white;
+    width: 200px;
+    background-color: #1c3bd85e;
+    border-radius: 20px;
 }      
 /*The colors will chage, this is only a test*/
 .subtitle{
@@ -129,21 +136,24 @@ i{
 th{font-weight: 500;}
 
 .tabla{
-    padding: 0px 400px 0px 400px;
     text-align: center;
     border-top: solid 1px white;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 450px;
+    padding-right: 450px;
 }
-
+.t-interact th, tr, td{
+    border: solid white 2px;
+    padding: 5px;
+}
 .t-interact{
     background-color: #00458d;
     color:#d6e3ff;
-    border: solid 2px;
-    margin:  0px 150px;
-    padding: 0px 10px 0px 10px;
-    border: solid 1px;
-}
-
-
+    border: solid 5px;
+    border-collapse: collapse;
+    border-radius: 5px;
+}  
 a{
     text-decoration: none;
 }
@@ -156,7 +166,6 @@ a{
     font-size: 25px;
     font-weight: 400;
     margin: 50px 0px 10px 0px;
-    padding: 0px 0px 0px 0px;
 }
 #formulario{
     margin-top: 50px;
@@ -190,4 +199,19 @@ input[type="submit"]{
     padding: 10px;
     font-weight: bolder;
     color: #d6e3ff;
+}
+#pie{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   padding: 15px 50px 15px 50px;
+}
+#pie p{
+    text-align: center;
+    font-size: 20px;
+}
+#dev{
+    justify-self: left;
+}
+#project{
+    justify-self: end;
 }
